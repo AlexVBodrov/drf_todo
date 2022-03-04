@@ -1,5 +1,7 @@
 import React from "react";
 
+import './components.css';
+
 
 const UserItem = ({user}) => {
     return(
@@ -25,7 +27,7 @@ const UserItem = ({user}) => {
 const UserList = ({users}) => {
 
     return(
-        <table>
+        <table class="table">
             <th>Username</th>
             <th>first_name</th>
             <th>last_name</th>
