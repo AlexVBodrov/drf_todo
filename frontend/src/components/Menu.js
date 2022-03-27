@@ -6,8 +6,8 @@ import './components.css';
 const MainMenu = ({user}) => {
     return(
         // возвращаем верстку
-        <div class="div-menu">
-                <ul class="menu-main">
+        <div className="div-menu">
+                <ul className="menu-main">
                 <li><a href="#">Главная</a></li>
                 <li><a href="#">Все пользователи</a></li>
                 <li><a href="#">Проекты</a></li>

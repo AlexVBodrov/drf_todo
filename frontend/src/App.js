@@ -43,7 +43,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div class="center">
+      <div className="center">
 
           <MainMenu />
 
