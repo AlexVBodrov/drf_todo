@@ -8,12 +8,19 @@ class Project(models.Model):
     link_repository = models.URLField(blank=True, null=True)
     users_list = models.ManyToManyField(User)
 
+    def __str__(self):
+        return self.name
+
 
 class TODO(models.Model):
+    name = models.CharField(max_length=100)
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
     text = models.TextField()
     created = models.DateTimeField(verbose_name="created", auto_now_add=True)
     updated = models.DateTimeField(verbose_name="updated", auto_now=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     is_active = models.BooleanField(verbose_name="active", default=True)
+
+    def __str__(self):
+        return self.name
 
