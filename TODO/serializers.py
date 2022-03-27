@@ -1,15 +1,19 @@
-from rest_framework.serializers import ModelSerializer
+from rest_framework.serializers import ModelSerializer, StringRelatedField
+
 from TODO.models import TODO, Project
 
 
 class TODOModelSerializer(ModelSerializer):
-   class Meta:
+    project = StringRelatedField()
+    author = StringRelatedField()
+    class Meta:
        model = TODO
        fields = '__all__'
 
 
 
 class ProjectModelSerializer(ModelSerializer):
-   class Meta:
-       model = Project
-       fields = '__all__'
+    users_list = StringRelatedField(many=True)
+    class Meta:
+        model = Project
+        fields = '__all__'
