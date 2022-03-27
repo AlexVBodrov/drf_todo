@@ -45,13 +45,13 @@ class App extends React.Component {
     return (
       <div class="center">
 
-          < MainMenu />
+          <MainMenu />
 
           <h1>TODO App</h1>
           
-          < UserList users={this.state.users}/>
+          <UserList users={this.state.users}/>
 
-          < Footer />
+          <Footer />
 
 
       </div>
