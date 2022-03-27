@@ -1,6 +1,3 @@
-from pyexpat import model
-from tkinter import CASCADE
-from venv import create
 from django.db import models
 from users.models import User
 
