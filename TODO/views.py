@@ -3,9 +3,10 @@ from TODO.models import TODO, Project
 from TODO.serializers import TODOModelSerializer, ProjectModelSerializer
 from rest_framework.pagination import LimitOffsetPagination
 from rest_framework.response import Response
-from rest_framework import status
+# from rest_framework import status
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters
+
 
 class ProjectLimitOffset(LimitOffsetPagination):
     default_limit = 10
@@ -22,6 +23,11 @@ class TODOLimitOffset(LimitOffsetPagination):
 
 
 class TODOModelViewSet(ModelViewSet):
+    """
+        Allow: all.
+
+        Delete change => instance.is_active = False
+    """
     queryset = TODO.objects.all()
     serializer_class = TODOModelSerializer
     pagination_class = TODOLimitOffset
