@@ -1,4 +1,3 @@
-from gc import get_objects
 from rest_framework.viewsets import ModelViewSet
 from TODO.models import TODO, Project
 from TODO.serializers import TODOModelSerializer, ProjectModelSerializer
@@ -17,9 +16,10 @@ class TODOLimitOffset(LimitOffsetPagination):
 
 
 # модель ToDo: доступны все варианты запросов;v
-#  при удалении не удалять ToDo, а выставлять признак, что оно закрыто;
+#  при удалении не удалять ToDo, а выставлять признак, что оно закрыто;v
 #  добавить фильтрацию по проекту;v
 #  для постраничного вывода установить размер страницы 20.v
+
 
 class TODOModelViewSet(ModelViewSet):
     queryset = TODO.objects.all()
@@ -29,11 +29,10 @@ class TODOModelViewSet(ModelViewSet):
     filterset_fields = ['project']
 
     def destroy(self, request, *args, **kwargs):
-        instance = get_objects()
+        instance = self.get_object()
         instance.is_active = False
         instance.save()
-        return Response(status=status.HTTP_204_NO_CONTENT)
-
+        return Response(f'TODO.is_active = {instance.is_active}')
 
 
 # модель Project: доступны все варианты запросов;v
