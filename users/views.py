@@ -1,11 +1,10 @@
-from rest_framework.viewsets import ModelViewSet
-from rest_framework.response import Response
-from rest_framework.renderers import JSONRenderer
 from rest_framework import viewsets
 from rest_framework import mixins
 
 from .models import User
 from .serializers import UserModelSerializer
+
+# from rest_framework.viewsets import ModelViewSet
 
 # class UserModelViewSet(ModelViewSet):
 #     queryset = User.objects.all()
