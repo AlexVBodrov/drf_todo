@@ -28,7 +28,7 @@ const ProjectList = ({ projects }) => {
         </tr>
       </thead>
       {projects.map((project) => (
-        <ProjectItem project={project} />
+        <ProjectItem key={project.id} project={project} />
       ))}
     </table>
   );
