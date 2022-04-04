@@ -1,59 +1,82 @@
 import React from 'react';
 import axios from 'axios';
-// import logo from './logo.svg';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 import UserList from './components/User';
+import ProjectList from './components/Project';
+import TODOList from './components/TODO';
 import MainMenu from './components/Menu';
 import Footer from './components/Footer';
+import NotFound404 from './components/NotFound404';
 
 class App extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
-      'users':[]
-    }
+      users: [],
+      projects: [],
+      todos: [],
+    };
   }
-
-
   componentDidMount() {
-    // const users = [
-    //   {
-    //     'username': 'nik_user001',
-    //     'first_name': 'user001',
-    //     'last_name': 'user_last001',
-    //     'email': 'user001@ya.ru'
-    //   },
-    //   {
-    //     'username': 'nik_user002',
-    //     'first_name': 'user002',
-    //     'last_name': 'user_last002',
-    //     'email': 'user002@ya.ru'
-    //   }
-    // ]
-    axios.get('http://127.0.0.1:8000/api/users/').then(response => {
+    axios
+      .get('http://127.0.0.1:8000/api/users/')
+      .then((response) => {
+        this.setState({
+          users: response.data,
+        });
+      })
+      .catch((error) => console.log(error));
 
-      this.setState(
-        {
-          'users': response.data
-        }
-      )}).catch(error => console.log(error))
+    axios
+      .get('http://127.0.0.1:8000/api/projects/')
+      .then((response) => {
+        this.setState({
+          projects: response.data.results,
+        });
+      })
+      .catch((error) => console.log(error));
+
+    axios
+      .get('http://127.0.0.1:8000/api/todos/')
+      .then((response) => {
+        this.setState({
+          todos: response.data.results,
+        });
+      })
+      .catch((error) => console.log(error));
   }
-
 
   render() {
     return (
       <div className="center">
-
+        <h1>TODO App</h1>
+        <BrowserRouter>
           <MainMenu />
+          <br />
+          <br />
+          <Switch>
+            <Route
+              exact
+              path="/"
+              component={() => <UserList users={this.state.users} />}
+            />
+            <Route
+              exact
+              path="/projects/"
+              component={() => <ProjectList projects={this.state.projects} />}
+            />
+            <Route
+              exact
+              path="/todos/"
+              component={() => <TODOList todos={this.state.todos} />}
+            />
+            <Route component={NotFound404} />
+          </Switch>
+        </BrowserRouter>
 
-          <h1>TODO App</h1>
-          
-          <UserList users={this.state.users}/>
-
-          <Footer />
-
-
+        <Footer />
       </div>
     );
   }
