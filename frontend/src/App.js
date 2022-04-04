@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import { BrowserRouter, Route, Link, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 import UserList from './components/User';
@@ -8,14 +8,7 @@ import ProjectList from './components/Project';
 import TODOList from './components/TODO';
 import MainMenu from './components/Menu';
 import Footer from './components/Footer';
-
-const NotFound404 = ({ location }) => {
-  return (
-    <div>
-      <h1>Страница по адресу '{location.pathname}' не найдена</h1>
-    </div>
-  );
-};
+import NotFound404 from './components/NotFound404';
 
 class App extends React.Component {
   constructor(props) {

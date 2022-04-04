@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Link, Switch, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import './components.css';
 
