@@ -3,23 +3,24 @@ import React from "react";
 import './components.css';
 
 
-const UserItem = ({user}) => {
+const ProjectItem = ({project}) => {
     return(
         // возвращаем верстку
         <tbody>
             <tr>
                 <td>
-                    {user.username}
+                    {project.id}
                 </td>
                 <td>
-                    {user.first_name}
+                    {project.name}
                 </td>
                 <td>
-                    {user.last_name}
+                    {project.users_list}
                 </td>
                 <td>
-                    {user.email}
+                    {project.link_repository}
                 </td>
+
             </tr>
         </tbody>
 
@@ -27,23 +28,22 @@ const UserItem = ({user}) => {
 }
 
 
-const UserList = ({users}) => {
+const ProjectList = ({projects}) => {
 
     return(
         <table className="table">
             <thead>
                 <tr>
-                    <th>Username</th>
-                    <th>First name</th>
-                    <th>Last name</th>
-                    <th>email</th>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>Users list</th>
+                    <th>Link</th>
                 </tr>
-
             </thead>
-            {users.map((user) => <UserItem user={user}/> )}
+            {projects.map((project) => <ProjectItem project={project}/> )}
         </table>
 
     )
 }
 
-export default UserList
+export default ProjectList

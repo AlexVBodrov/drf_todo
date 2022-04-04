@@ -30,7 +30,7 @@ class TODOModelViewSet(ModelViewSet):
     """
     queryset = TODO.objects.all()
     serializer_class = TODOModelSerializer
-    pagination_class = TODOLimitOffset
+    # pagination_class = TODOLimitOffset
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ['project']
 
@@ -48,6 +48,6 @@ class TODOModelViewSet(ModelViewSet):
 class ProjectModelViewSet(ModelViewSet):
     queryset = Project.objects.all()
     serializer_class = ProjectModelSerializer
-    pagination_class = ProjectLimitOffset
+    # pagination_class = ProjectLimitOffset
     filter_backends = [filters.SearchFilter]
     search_fields = ['name']

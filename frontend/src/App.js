@@ -1,9 +1,10 @@
 import React from 'react';
 import axios from 'axios';
-// import logo from './logo.svg';
 import './App.css';
 
 import UserList from './components/User';
+import ProjectList from './components/Project';
+import TODOList from './components/TODO';
 import MainMenu from './components/Menu';
 import Footer from './components/Footer';
 
@@ -11,33 +12,34 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      'users':[]
+      'users':[],
+      'projects':[],
+      'todos':[],
     }
   }
 
 
   componentDidMount() {
-    // const users = [
-    //   {
-    //     'username': 'nik_user001',
-    //     'first_name': 'user001',
-    //     'last_name': 'user_last001',
-    //     'email': 'user001@ya.ru'
-    //   },
-    //   {
-    //     'username': 'nik_user002',
-    //     'first_name': 'user002',
-    //     'last_name': 'user_last002',
-    //     'email': 'user002@ya.ru'
-    //   }
-    // ]
     axios.get('http://127.0.0.1:8000/api/users/').then(response => {
-
       this.setState(
         {
           'users': response.data
         }
       )}).catch(error => console.log(error))
+
+      axios.get('http://127.0.0.1:8000/api/projects/').then(response => {
+        this.setState(
+          {
+            'projects': response.data
+          }
+        )}).catch(error => console.log(error))
+
+      axios.get('http://127.0.0.1:8000/api/todos/').then(response => {
+        this.setState(
+          {
+            'todos': response.data
+          }
+        )}).catch(error => console.log(error))
   }
 
 
@@ -50,6 +52,15 @@ class App extends React.Component {
           <h1>TODO App</h1>
           
           <UserList users={this.state.users}/>
+
+          <br/>
+
+          <ProjectList projects={this.state.projects}/>
+
+
+          <TODOList todos={this.state.todos}/>
+
+          
 
           <Footer />
 
