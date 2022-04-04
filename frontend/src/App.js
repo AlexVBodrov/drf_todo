@@ -33,7 +33,7 @@ class App extends React.Component {
       .get('http://127.0.0.1:8000/api/projects/')
       .then((response) => {
         this.setState({
-          projects: response.data,
+          projects: response.data.results,
         });
       })
       .catch((error) => console.log(error));
@@ -42,7 +42,7 @@ class App extends React.Component {
       .get('http://127.0.0.1:8000/api/todos/')
       .then((response) => {
         this.setState({
-          todos: response.data,
+          todos: response.data.results,
         });
       })
       .catch((error) => console.log(error));
