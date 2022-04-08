@@ -9,6 +9,7 @@ import TODOList from './components/TODO';
 import MainMenu from './components/Menu';
 import Footer from './components/Footer';
 import NotFound404 from './components/NotFound404';
+import LoginForm from './components/Auth';
 
 class App extends React.Component {
   constructor(props) {
@@ -17,8 +18,25 @@ class App extends React.Component {
       users: [],
       projects: [],
       todos: [],
+      token: '',
     };
   }
+
+  get_token(username, password) {
+    console.log(username, password);
+    axios
+      .post('http://127.0.0.1:8000/api-token-auth/', {
+        username: username,
+        password: password,
+      })
+      .then((response) => {
+        console.log(response.data['token']);
+      })
+      .catch((error) => alert('Неверный логин или пароль'));
+  }
+
+  logout() {}
+
   componentDidMount() {
     axios
       .get('http://127.0.0.1:8000/api/users/')
@@ -61,6 +79,17 @@ class App extends React.Component {
               exact
               path="/"
               component={() => <UserList users={this.state.users} />}
+            />
+            <Route
+              exact
+              path="/login"
+              component={() => (
+                <LoginForm
+                  get_token={(username, password) =>
+                    this.get_token(username, password)
+                  }
+                />
+              )}
             />
             <Route
               exact

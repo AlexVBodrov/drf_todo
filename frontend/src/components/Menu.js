@@ -18,6 +18,9 @@ const MainMenu = ({ user }) => {
           <li>
             <Link to="/todos/">TODO листы</Link>
           </li>
+          <li>
+            <Link to="/login/">Login</Link>
+          </li>
         </ul>
       </nav>
     </div>
