@@ -18,7 +18,7 @@ const MainMenu = ({ user }) => {
           <li>
             <Link to="/todos/">TODO листы</Link>
           </li>
-          <li>
+          <li className="login">
             <Link to="/login/">Login</Link>
           </li>
         </ul>
