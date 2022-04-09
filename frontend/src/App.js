@@ -8,7 +8,7 @@ import './components/components.css';
 import UserList from './components/User';
 import ProjectList from './components/Project';
 import TODOList from './components/TODO';
-import MainMenu from './components/Menu';
+// import MainMenu from './components/Menu';
 import Footer from './components/Footer';
 import NotFound404 from './components/NotFound404';
 import LoginForm from './components/Auth';
