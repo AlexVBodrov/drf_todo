@@ -1,3 +1,4 @@
+from rest_framework import viewsets, permissions
 from rest_framework.viewsets import ModelViewSet
 from TODO.models import TODO, Project
 from TODO.serializers import TODOModelSerializer, ProjectModelSerializer
@@ -28,6 +29,7 @@ class TODOModelViewSet(ModelViewSet):
 
         Delete change => instance.is_active = False
     """
+    permission_classes = [permissions.IsAuthenticated]
     queryset = TODO.objects.all()
     serializer_class = TODOModelSerializer
     pagination_class = TODOLimitOffset
@@ -46,6 +48,7 @@ class TODOModelViewSet(ModelViewSet):
 #  добавить фильтрацию по совпадению части названия проекта;
 
 class ProjectModelViewSet(ModelViewSet):
+    permission_classes = [permissions.IsAuthenticated]
     queryset = Project.objects.all()
     serializer_class = ProjectModelSerializer
     pagination_class = ProjectLimitOffset

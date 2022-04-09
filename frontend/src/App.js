@@ -1,7 +1,9 @@
 import React from 'react';
 import axios from 'axios';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Cookies from 'universal-cookie';
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import './App.css';
+import './components/components.css';
 
 import UserList from './components/User';
 import ProjectList from './components/Project';
@@ -22,24 +24,10 @@ class App extends React.Component {
     };
   }
 
-  get_token(username, password) {
-    console.log(username, password);
+  load_data() {
+    const headers = this.get_headers();
     axios
-      .post('http://127.0.0.1:8000/api-token-auth/', {
-        username: username,
-        password: password,
-      })
-      .then((response) => {
-        console.log(response.data['token']);
-      })
-      .catch((error) => alert('Неверный логин или пароль'));
-  }
-
-  logout() {}
-
-  componentDidMount() {
-    axios
-      .get('http://127.0.0.1:8000/api/users/')
+      .get('http://127.0.0.1:8000/api/users/', { headers })
       .then((response) => {
         this.setState({
           users: response.data.results,
@@ -48,7 +36,7 @@ class App extends React.Component {
       .catch((error) => console.log(error));
 
     axios
-      .get('http://127.0.0.1:8000/api/projects/')
+      .get('http://127.0.0.1:8000/api/projects/', { headers })
       .then((response) => {
         this.setState({
           projects: response.data.results,
@@ -57,7 +45,7 @@ class App extends React.Component {
       .catch((error) => console.log(error));
 
     axios
-      .get('http://127.0.0.1:8000/api/todos/')
+      .get('http://127.0.0.1:8000/api/todos/', { headers })
       .then((response) => {
         this.setState({
           todos: response.data.results,
@@ -66,12 +54,93 @@ class App extends React.Component {
       .catch((error) => console.log(error));
   }
 
+  set_token(token) {
+    // code for local Storage use
+    // localStorage.setItem('token', token);
+    // let item = localStorage.getItem('token')
+    const cookies = new Cookies();
+    cookies.set('token', token);
+    this.setState({ token: token }, () => this.load_data());
+  }
+
+  is_authenticated() {
+    return !!this.state.token;
+  }
+
+  logout() {
+    this.set_token('');
+    // reload browser cache
+    location.reload(false);
+  }
+
+  get_token(username, password) {
+    console.log(username, password);
+    axios
+      .post('http://127.0.0.1:8000/api-token-auth/', {
+        username: username,
+        password: password,
+      })
+      .then((response) => {
+        // console.log(response.data['token']);
+        this.set_token(response.data['token']);
+      })
+      .catch((error) => alert('Неверный логин или пароль'));
+  }
+
+  get_headers() {
+    let headers = {
+      'Content-Type': 'application/json',
+    };
+
+    if (this.is_authenticated()) {
+      headers['Authorization'] = `Token ${this.state.token}`;
+    }
+    return headers;
+  }
+
+  get_token_from_storage() {
+    // code for local Storage use
+    // localStorage.setItem('token', token);
+    // let item = localStorage.getItem('token')
+    const cookies = new Cookies();
+    const token = cookies.set('token');
+    this.setState({ token: token }, () => this.load_data());
+  }
+
+  componentDidMount() {
+    this.get_token_from_storage();
+  }
+
   render() {
     return (
       <div className="center">
         <h1>TODO App</h1>
         <BrowserRouter>
-          <MainMenu />
+          {/* <MainMenu /> */}
+          <div className="div-menu">
+            <nav>
+              <ul className="menu-main">
+                <li>
+                  <Link to="/">Все пользователи</Link>
+                </li>
+                <li>
+                  <Link to="/projects/">Проекты</Link>
+                </li>
+                <li>
+                  <Link to="/todos/">TODO листы</Link>
+                </li>
+                <li className="login">
+                  {this.is_authenticated() ? (
+                    <button className="logout" onClick={() => this.logout()}>
+                      Logout
+                    </button>
+                  ) : (
+                    <Link to="/login/">Login</Link>
+                  )}
+                </li>
+              </ul>
+            </nav>
+          </div>
           <br />
           <br />
           <Switch>
