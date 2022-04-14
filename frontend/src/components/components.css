@@ -5,56 +5,131 @@
 }
 
 .menu-main {
-    list-style: none; /*убираем маркеры списка*/
-    margin: 0; /*убираем отступы*/
-    padding-right: 10px; /*убираем отступы */
-    margin-top:25px; /*делаем отступ сверху*/
-  }
-  .menu-main a {
-    text-decoration: none; /*убираем подчеркивание текста ссылок*/
-    background:#30A8E6; /*добавляем фон к пункту меню*/
-    color:#fff; /*меняем цвет ссылок*/
-    padding:10px; /*добавляем отступ*/
-    font-family: arial; /*меняем шрифт*/
-    border-radius:4px; /*добавляем скругление*/
-    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
-    -o-transition: all 0.3s 0.01s ease;
-    -webkit-transition: all 0.3s 0.01s ease;
-  }
-  .menu-main a:hover {
-    background:#1C85BB;/*добавляем эффект при наведении*/
-  }
-  .menu-main li {
-    float:left; /*Размещаем список горизонтально для реализации меню*/
-    margin-right:5px; /*Добавляем отступ у пунктов меню*/
-    
-  }
-  
-  
-  #footer {
-    text-align: center;
-    position: fixed; /* Фиксированное положение */
-    left: 0; bottom: 0; /* Левый нижний угол */
-    padding: 10px; /* Поля вокруг текста */
-    background-color: #45a1ff; /* Цвет фона */
-    color: #fff; /* Цвет текста */
-    width: 100%; /* Ширина слоя */
-   }
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-right: 10px; /*убираем отступы */
+  margin-top: 25px; /*делаем отступ сверху*/
+}
+.menu-main a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background: #30a8e6; /*добавляем фон к пункту меню*/
+  color: #fff; /*меняем цвет ссылок*/
+  padding: 10px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  border-radius: 4px; /*добавляем скругление*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+.menu-main a:hover {
+  background: #1c85bb; /*добавляем эффект при наведении*/
+}
+.menu-main li {
+  float: left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right: 5px; /*Добавляем отступ у пунктов меню*/
+}
 
-   .table {
-    width: 100%;
-    margin-bottom: 20px;
-    border: 1px solid #dddddd;
-    border-collapse: collapse; 
-  }
-  .table th {
-    font-weight: bold;
-    padding: 5px;
-    background: #efefef;
-    border: 1px solid #dddddd;
-  }
-  .table td {
-    border: 1px solid #dddddd;
-    padding: 5px;
-  }
+.login a {
+  background: #ceac3c; /*меняем цвет ссылок*/
+}
+.login a:hover {
+  background: #a8da33; /*добавляем эффект при наведении*/
+}
 
+.logout {
+  font-size: 16px;
+}
+
+#footer {
+  text-align: center;
+  position: fixed; /* Фиксированное положение */
+  left: 0;
+  bottom: 0; /* Левый нижний угол */
+  padding: 10px; /* Поля вокруг текста */
+  background-color: #45a1ff; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  width: 100%; /* Ширина слоя */
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+.table th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+.table td {
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+
+.ui-form {
+  max-width: 350px;
+  padding: 80px 30px 30px;
+  margin: 50px auto 30px;
+  background: white;
+}
+
+.form-row {
+  position: relative;
+  margin-bottom: 40px;
+}
+.form-row input {
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  background: none;
+  border-width: 0;
+  border-bottom: 2px solid #4a90e2;
+  transition: all 0.2s ease;
+}
+.form-row label {
+  position: absolute;
+  left: 13px;
+  color: #9d959d;
+  font-size: 20px;
+  font-weight: 300;
+  transform: translateY(-35px);
+  transition: all 0.2s ease;
+}
+.form-row input:focus {
+  outline: 0;
+  border-color: #f77a52;
+}
+.form-row input:focus + label,
+.form-row input:valid + label {
+  transform: translateY(-60px);
+  margin-left: -14px;
+  font-size: 14px;
+  font-weight: 400;
+  outline: 0;
+  border-color: #f77a52;
+  color: #f77a52;
+}
+.ui-form input[type='submit'] {
+  width: 100%;
+  padding: 0;
+  line-height: 42px;
+  background: #4a90e2;
+  border-width: 0;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.ui-form input[type='submit']:hover {
+  background: #a8da33;
+  cursor: pointer;
+}
+
+.ui-form p {
+  margin: 0;
+  padding-top: 10px;
+}
