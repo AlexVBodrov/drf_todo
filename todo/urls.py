@@ -19,21 +19,26 @@ from django.urls import path, include
 from rest_framework.authtoken import views
 from rest_framework.routers import DefaultRouter
 
-from users.views import UserCustomViewSet, UserModelViewSet, User_V2_ModelViewSet
+from users.views import UserCustomViewSet, UserModelViewSet # , User_V2_ModelViewSet
 from TODO.views import TODOModelViewSet, ProjectModelViewSet
 
 router = DefaultRouter()
 router.register('users', UserCustomViewSet, basename='users')
 router.register('control_users', UserModelViewSet, basename='control_users')
-router.register('control_users_v2', User_V2_ModelViewSet, basename='control_users_v2')
+# router.register('control_users_v2', User_V2_ModelViewSet, basename='control_users_v2')
 router.register('todos', TODOModelViewSet)
 router.register('projects', ProjectModelViewSet)
 
 urlpatterns = [
    path('admin/', admin.site.urls),
+   
+   path('api/users/v2/',include('users.urls',namespace='v2')),
+   path('api/users/v1/',include('users.urls',namespace='v1')),
+
    path('api-auth/', include('rest_framework.urls')),
    path('api/', include(router.urls)),
    path('api-token-auth/', views.obtain_auth_token),
+   
 ]
 
 

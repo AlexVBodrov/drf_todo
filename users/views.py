@@ -10,10 +10,15 @@ class UserModelViewSet(ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserModelSerializer
 
+    def get_serializer_class(self):
+        if self.request.version == 'v2':
+            return User_V2_ModelSerializer
+        return UserModelSerializer
 
-class User_V2_ModelViewSet(ModelViewSet):
-    queryset = User.objects.all()
-    serializer_class = User_V2_ModelSerializer
+
+# class User_V2_ModelViewSet(ModelViewSet):
+#     queryset = User.objects.all()
+#     serializer_class = User_V2_ModelSerializer
 
 
 # модель User: есть возможность просмотра списка и каждого пользователя в
