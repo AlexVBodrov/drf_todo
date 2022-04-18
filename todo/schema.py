@@ -67,11 +67,24 @@ class Query(graphene.ObjectType):
     def resolve_all_Users(root, info):
         return User.objects.all()
 
+    user_by_id = graphene.Field(UserType, id=graphene.Int(required=True))
+    def resolve_user_by_id(self, info, id):
+      try:
+        return User.objects.get(id=id)
+      except User.DoesNotExist:
+        return None
+    
+    project_by_user = graphene.List(ProjectType, name=graphene.String(required=False))
+
+    def resolve_project_by_user(self, info, name=None):
+      project = Project.objects.all()
+      if name:
+        project = Project.objects.filter(users_list__username=name)
+      return project
+
+
+class Mutations(DjangoObjectType):
+  
+
 schema = graphene.Schema(query=Query)
 
-"""
-2) * Подумать, какие ещё гибкие запросы могут быть полезны для этой системы, реализовать
-некоторые из них с помощью GraphQL.
-Решение:
-    Запросы на сознание, удаление , редактирование, Проэктов и Заметок
-"""
