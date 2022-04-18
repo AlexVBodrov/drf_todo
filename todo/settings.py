@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'drf_yasg',
+    'graphene_django',
     'rest_framework',
     'corsheaders',
     'django_filters',
@@ -156,3 +157,8 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
         ],
 }
+
+
+GRAPHENE = {
+    "SCHEMA": "todo.schema.schema"
+    }
