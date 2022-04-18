@@ -83,8 +83,5 @@ class Query(graphene.ObjectType):
       return project
 
 
-class Mutations(DjangoObjectType):
-  
-
 schema = graphene.Schema(query=Query)
 
