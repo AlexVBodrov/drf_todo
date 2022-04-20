@@ -29,9 +29,7 @@
 import graphene
 from graphene import ObjectType, Schema
 from graphene_django import DjangoObjectType
-
-from graphene_django import DjangoObjectType
-from TODO.models import Project, TODO
+from TODO.models import TODO, Project
 from users.models import User
 
 
@@ -83,5 +81,25 @@ class Query(graphene.ObjectType):
       return project
 
 
-schema = graphene.Schema(query=Query)
+class TODOMutation(graphene.Mutation):
+  
+  class Arguments:
+    text = graphene.String(required=True)
+    id = graphene.ID()
+  
+  todo = graphene.Field(TODOType)
 
+  @classmethod
+  def mutate(cls, root, info, text, id):
+    todo = TODO.objects.get(pk=id)
+    todo.text = text
+    todo.save()
+    
+    return TODOMutation(todo=todo)
+
+
+class Mutation(graphene.ObjectType):
+  update_text = TODOMutation.Field()
+  
+
+schema = graphene.Schema(query=Query, mutation=Mutation)
