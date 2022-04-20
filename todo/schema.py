@@ -66,7 +66,7 @@ class Query(graphene.ObjectType):
         return User.objects.all()
 
     user_by_id = graphene.Field(UserType, id=graphene.Int(required=True))
-    def resolve_user_by_id(self, info, id):
+    def resolve_user_by_id(info, id):
       try:
         return User.objects.get(id=id)
       except User.DoesNotExist:
@@ -79,7 +79,7 @@ class Query(graphene.ObjectType):
       if name:
         project = Project.objects.filter(users_list__username=name)
       return project
-
+      
 
 class TODOMutation(graphene.Mutation):
   
@@ -103,3 +103,4 @@ class Mutation(graphene.ObjectType):
   
 
 schema = graphene.Schema(query=Query, mutation=Mutation)
+
