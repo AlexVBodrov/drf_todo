@@ -8,6 +8,7 @@ import './components/components.css';
 import UserList from './components/User';
 import ProjectList from './components/Project';
 import TODOList from './components/TODO';
+import TodoForm from './components/TodoForm';
 // import MainMenu from './components/Menu';
 import Footer from './components/Footer';
 import NotFound404 from './components/NotFound404';
@@ -50,6 +51,38 @@ class App extends React.Component {
         this.setState({
           todos: response.data.results,
         });
+      })
+      .catch((error) => console.log(error));
+  }
+
+  deleteTodo(id) {
+    console.log(id);
+    const headers = this.get_headers();
+    axios
+      .delete(`http://127.0.0.1:8000/api/todos/${id}`, { headers, headers })
+      .then((response) => {
+        this.load_data();
+        // this.setState(
+        //   {
+        //   todos: this.state.todos.filter((item) => item.id !== id),
+        // }
+        // );
+      })
+      .catch((error) => console.log(error));
+  }
+
+  createTodo(name, author) {
+    const headers = this.get_headers();
+    const data = { name: name, author: author };
+    axios
+      .post(`http://127.0.0.1:8000/api/todos/`, data, { headers, headers })
+      .then((response) => {
+        let new_todo = response.data;
+        const author = this.state.authors.filter(
+          (item) => item.id === new_todo.author
+        )[0];
+        new_todo.author = author;
+        this.setState({ books: [...this.state.books, new_todo] });
       })
       .catch((error) => console.log(error));
   }
@@ -165,11 +198,34 @@ class App extends React.Component {
               path="/projects/"
               component={() => <ProjectList projects={this.state.projects} />}
             />
-            <Route
+            {/* <Route
               exact
               path="/todos/"
               component={() => <TODOList todos={this.state.todos} />}
+            /> */}
+
+            <Route
+              exact
+              path="/todos/"
+              component={() => (
+                <TODOList
+                  todos={this.state.todos}
+                  deleteTodo={(id) => this.deleteTodo(id)}
+                />
+              )}
             />
+
+            <Route
+              exact
+              path="/todos/create"
+              component={() => (
+                <TodoForm
+                  createBook={(name, author) => this.createTodo(name, author)}
+                />
+              )}
+            />
+            {/* <Route exact path="/todos/create" component={() => <TodoForm />} /> */}
+
             <Route component={NotFound404} />
           </Switch>
         </BrowserRouter>
