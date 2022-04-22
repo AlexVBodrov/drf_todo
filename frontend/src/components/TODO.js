@@ -31,6 +31,13 @@ const TODOItem = ({ todo, deleteTodo }) => {
 const TODOList = ({ todos, deleteTodo }) => {
   return (
     <div>
+      <div className="menu-main login">
+        <Link to="/todos/create">Create todo</Link>
+        <br />
+        <br />
+        <br />
+      </div>
+
       <table className="table">
         <thead>
           <tr>
@@ -48,7 +55,6 @@ const TODOList = ({ todos, deleteTodo }) => {
           <TODOItem key={todo.id} todo={todo} deleteTodo={deleteTodo} />
         ))}
       </table>
-      <Link to="/todos/create">Create todo</Link>
     </div>
   );
 };

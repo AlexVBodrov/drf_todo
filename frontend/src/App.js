@@ -73,7 +73,7 @@ class App extends React.Component {
 
   createTodo(name, author) {
     const headers = this.get_headers();
-    const data = { name: name, author: author };
+    const data = { name: name, author: [author] };
     axios
       .post(`http://127.0.0.1:8000/api/todos/`, data, { headers, headers })
       .then((response) => {
