@@ -21,7 +21,7 @@ const ProjectList = ({ projects }) => {
   return (
     <div>
       <div className="menu-main login">
-        <Link to="/project/create">Create todo</Link>
+        <Link to="/project/create">Create Project</Link>
         <br />
         <br />
         <br />
