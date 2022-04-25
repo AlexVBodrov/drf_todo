@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-import Axios from 'axios';
+import React, { useState  } from 'react';
+
 
 function ProjectForm() {
-  const url = 'http://127.0.0.1:8000/api/projects/';
   const [data, setData] = useState({
     name: "",
     link_repository: "",
@@ -11,15 +10,6 @@ function ProjectForm() {
 
   function submit(ev){
       ev.preventDefault();
-      Axios.post(url, {
-        name: data.name,
-        link_repository: data.link_repository,
-        users_list: parseInt(data.users_list)
-      }, { headers })
-      .then(res=>{
-        console.log(res.data);
-      }
-        )
   }
 
   function handleInput(ev) {
