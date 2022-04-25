@@ -8,7 +8,7 @@ import './components/components.css';
 import UserList from './components/User';
 import ProjectList from './components/Project';
 import TODOList from './components/TODO';
-import TodoForm from './components/TodoForm';
+import ProjectForm from './components/ProjectForm';
 // import MainMenu from './components/Menu';
 import Footer from './components/Footer';
 import NotFound404 from './components/NotFound404';
@@ -59,7 +59,7 @@ class App extends React.Component {
     console.log(id);
     const headers = this.get_headers();
     axios
-      .delete(`http://127.0.0.1:8000/api/todos/${id}`, { headers, headers })
+      .delete(`http://127.0.0.1:8000/api/todos/${id}`, { headers })
       .then((response) => {
         this.load_data();
         // this.setState(
@@ -71,21 +71,6 @@ class App extends React.Component {
       .catch((error) => console.log(error));
   }
 
-  createTodo(name, author) {
-    const headers = this.get_headers();
-    const data = { name: name, author: [author] };
-    axios
-      .post(`http://127.0.0.1:8000/api/todos/`, data, { headers, headers })
-      .then((response) => {
-        let new_todo = response.data;
-        const author = this.state.authors.filter(
-          (item) => item.id === new_todo.author
-        )[0];
-        new_todo.author = author;
-        this.setState({ books: [...this.state.books, new_todo] });
-      })
-      .catch((error) => console.log(error));
-  }
 
   set_token(token) {
     // code for local Storage use
@@ -217,11 +202,9 @@ class App extends React.Component {
 
             <Route
               exact
-              path="/todos/create"
+              path="/project/create"
               component={() => (
-                <TodoForm
-                  createBook={(name, author) => this.createTodo(name, author)}
-                />
+                <ProjectForm createTodo={(text) => this.createTodo(text)} />
               )}
             />
             {/* <Route exact path="/todos/create" component={() => <TodoForm />} /> */}
