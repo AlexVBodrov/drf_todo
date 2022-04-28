@@ -21,6 +21,7 @@ from rest_framework import permissions
 
 from django.contrib import admin
 from django.urls import path, include, re_path
+from django.views.generic import TemplateView
 
 from graphene_django.views import GraphQLView
 
@@ -51,7 +52,7 @@ schema_view = get_schema_view(
 
 
 urlpatterns = [
-
+    path('',TemplateView.as_view(template_name='index.html')),
     path('admin/', admin.site.urls),
 
     path('api/users/v2/',include('users.urls',namespace='v2')),
@@ -67,7 +68,6 @@ urlpatterns = [
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 
     path("graphql/", GraphQLView.as_view(graphiql=True)),
-   
 ]
 
 
