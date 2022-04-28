@@ -8,7 +8,9 @@ import './components/components.css';
 import UserList from './components/User';
 import ProjectList from './components/Project';
 import TODOList from './components/TODO';
-// import MainMenu from './components/Menu';
+
+import FormCreateProject from './components/FormCreateProject';
+
 import Footer from './components/Footer';
 import NotFound404 from './components/NotFound404';
 import LoginForm from './components/Auth';
@@ -53,6 +55,35 @@ class App extends React.Component {
       })
       .catch((error) => console.log(error));
   }
+
+  deleteTodo(id) {
+    console.log(id);
+    const headers = this.get_headers();
+    axios
+      .delete(`http://127.0.0.1:8000/api/todos/${id}`, { headers })
+      .then((response) => {
+        this.load_data();
+        // this.setState(
+        //   {
+        //   todos: this.state.todos.filter((item) => item.id !== id),
+        // }
+        // );
+      })
+      .catch((error) => console.log(error));
+  }
+
+  createProject(name, link_repository, users_list) {
+    console.log(name, link_repository, users_list)
+    const headers = this.get_headers()
+    const data = {name: name, link_repository: link_repository, users_list:Array.from(parseInt(users_list))}
+    const url = 'http://127.0.0.1:8000/api/projects/';
+
+    axios.post(url, data, { headers })
+    .then(() => {
+      this.load_data();
+    })
+    .catch((error) => console.log(error));
+}
 
   set_token(token) {
     // code for local Storage use
@@ -165,11 +196,34 @@ class App extends React.Component {
               path="/projects/"
               component={() => <ProjectList projects={this.state.projects} />}
             />
-            <Route
+            {/* <Route
               exact
               path="/todos/"
               component={() => <TODOList todos={this.state.todos} />}
+            /> */}
+
+            <Route
+              exact
+              path="/todos/"
+              component={() => (
+                <TODOList
+                  todos={this.state.todos}
+                  deleteTodo={(id) => this.deleteTodo(id)}
+                />
+              )}
             />
+
+            <Route
+              exact
+              path="/project/create"
+              component={() => 
+                <FormCreateProject 
+                createProject={
+                  (name,link_repository, users_list) => this.createProject(name, link_repository, users_list)}/>
+              }
+            />
+            {/* <Route exact path="/todos/create" component={() => <TodoForm />} /> */}
+
             <Route component={NotFound404} />
           </Switch>
         </BrowserRouter>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './components.css';
 
@@ -18,19 +19,28 @@ const ProjectItem = ({ project }) => {
 
 const ProjectList = ({ projects }) => {
   return (
-    <table className="table">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>NAME</th>
-          <th>Users list</th>
-          <th>Link</th>
-        </tr>
-      </thead>
-      {projects.map((project) => (
-        <ProjectItem key={project.id} project={project} />
-      ))}
-    </table>
+    <div>
+      <div className="menu-main login">
+        <Link to="/project/create">Create Project</Link>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <table className="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>Users list</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        {projects.map((project) => (
+          <ProjectItem key={project.id} project={project} />
+        ))}
+      </table>
+    </div>
   );
 };
 
