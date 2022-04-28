@@ -11,10 +11,24 @@ services:
       POSTGRES_USER: alex
       POSTGRES_PASSWORD: alex
       POSTGRES_DB: db
-  adminer: 
-    image: adminer:4.7.8-standalone
-    restart: always
+  backend:
+    build: ./backend
+    privileged: true
     ports:
       - 8080:8080
+    command:
+      bash -c "python manage.py migrate &&
+      python manage.py create_user &&
+      gunicorn library.wsgi -b 0.0.0.0:8080"
+  nginx:
+    build: ./nginx
+    ports:
+      - 8000:80
     depends_on:
-      - db
+      - backend
+  frontend:
+    build: ./frontend
+    ports:
+      - 80:80
+    depends_on:
+      - nginx
