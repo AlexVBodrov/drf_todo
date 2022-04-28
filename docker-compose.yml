@@ -11,8 +11,8 @@ services:
       POSTGRES_USER: alex
       POSTGRES_PASSWORD: alex
       POSTGRES_DB: db
-adminer:
-  image: adminer:4.7.8-standalone
+  adminer: 
+    image: adminer:4.7.8-standalone
     restart: always
     ports:
       - 8080:8080
