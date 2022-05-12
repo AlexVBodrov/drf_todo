@@ -52,7 +52,7 @@ schema_view = get_schema_view(
 
 
 urlpatterns = [
-    path('',TemplateView.as_view(template_name='index.html')),
+    # path('',TemplateView.as_view(template_name='index.html')),
     path('admin/', admin.site.urls),
 
     path('api/users/v2/',include('users.urls',namespace='v2')),
