@@ -1,0 +1,1248 @@
+[
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "users.models",
+        "description": "users.models",
+        "isExtraImport": true,
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "users.models",
+        "description": "users.models",
+        "isExtraImport": true,
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "StringRelatedField",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelSerializer",
+        "importPath": "rest_framework.serializers",
+        "description": "rest_framework.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TODO",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "TODO",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "TODO",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "TODO",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "TODO",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "filters",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "mixins",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "TODOModelSerializer",
+        "importPath": "TODO.serializers",
+        "description": "TODO.serializers",
+        "isExtraImport": true,
+        "detail": "TODO.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectModelSerializer",
+        "importPath": "TODO.serializers",
+        "description": "TODO.serializers",
+        "isExtraImport": true,
+        "detail": "TODO.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectSerializerBase",
+        "importPath": "TODO.serializers",
+        "description": "TODO.serializers",
+        "isExtraImport": true,
+        "detail": "TODO.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "LimitOffsetPagination",
+        "importPath": "rest_framework.pagination",
+        "description": "rest_framework.pagination",
+        "isExtraImport": true,
+        "detail": "rest_framework.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "DjangoFilterBackend",
+        "importPath": "django_filters.rest_framework",
+        "description": "django_filters.rest_framework",
+        "isExtraImport": true,
+        "detail": "django_filters.rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "graphene",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "graphene",
+        "description": "graphene",
+        "detail": "graphene",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectType",
+        "importPath": "graphene",
+        "description": "graphene",
+        "isExtraImport": true,
+        "detail": "graphene",
+        "documentation": {}
+    },
+    {
+        "label": "Schema",
+        "importPath": "graphene",
+        "description": "graphene",
+        "isExtraImport": true,
+        "detail": "graphene",
+        "documentation": {}
+    },
+    {
+        "label": "DjangoObjectType",
+        "importPath": "graphene_django",
+        "description": "graphene_django",
+        "isExtraImport": true,
+        "detail": "graphene_django",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_view",
+        "importPath": "drf_yasg.views",
+        "description": "drf_yasg.views",
+        "isExtraImport": true,
+        "detail": "drf_yasg.views",
+        "documentation": {}
+    },
+    {
+        "label": "openapi",
+        "importPath": "drf_yasg",
+        "description": "drf_yasg",
+        "isExtraImport": true,
+        "detail": "drf_yasg",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TemplateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "GraphQLView",
+        "importPath": "graphene_django.views",
+        "description": "graphene_django.views",
+        "isExtraImport": true,
+        "detail": "graphene_django.views",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "rest_framework.authtoken",
+        "description": "rest_framework.authtoken",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "UserCustomViewSet",
+        "importPath": "users.views",
+        "description": "users.views",
+        "isExtraImport": true,
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserModelViewSet",
+        "importPath": "users.views",
+        "description": "users.views",
+        "isExtraImport": true,
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserModelViewSet",
+        "importPath": "users.views",
+        "description": "users.views",
+        "isExtraImport": true,
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserModelViewSet",
+        "importPath": "users.views",
+        "description": "users.views",
+        "isExtraImport": true,
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "TODOModelViewSet",
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "isExtraImport": true,
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectModelViewSet",
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "isExtraImport": true,
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "BaseCommand",
+        "importPath": "django.core.management",
+        "description": "django.core.management",
+        "isExtraImport": true,
+        "detail": "django.core.management",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "importPath": "django.contrib.auth.admin",
+        "description": "django.contrib.auth.admin",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.admin",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "APIRequestFactory",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "force_authenticate",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "APIClient",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "APISimpleTestCase",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "APITestCase",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "mixer",
+        "importPath": "mixer.backend.django",
+        "description": "mixer.backend.django",
+        "isExtraImport": true,
+        "detail": "mixer.backend.django",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.TODO.migrations.0001_initial",
+        "description": "backend.TODO.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Project',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "backend.TODO.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.TODO.migrations.0002_todo_name",
+        "description": "backend.TODO.migrations.0002_todo_name",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TODO', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='todo',\n            name='name',\n            field=models.CharField(default='name', max_length=100),\n            preserve_default=False,",
+        "detail": "backend.TODO.migrations.0002_todo_name",
+        "documentation": {}
+    },
+    {
+        "label": "TodoConfig",
+        "kind": 6,
+        "importPath": "backend.TODO.apps",
+        "description": "backend.TODO.apps",
+        "peekOfCode": "class TodoConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'TODO'",
+        "detail": "backend.TODO.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "kind": 6,
+        "importPath": "backend.TODO.models",
+        "description": "backend.TODO.models",
+        "peekOfCode": "class Project(models.Model):\n    name = models.CharField(max_length=100, unique=True)\n    link_repository = models.URLField(blank=True, null=True)\n    users_list = models.ManyToManyField(User)\n    def __str__(self):\n        return self.name\nclass TODO(models.Model):\n    name = models.CharField(max_length=100)\n    project = models.ForeignKey(Project, on_delete=models.CASCADE)\n    text = models.TextField()",
+        "detail": "backend.TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "TODO",
+        "kind": 6,
+        "importPath": "backend.TODO.models",
+        "description": "backend.TODO.models",
+        "peekOfCode": "class TODO(models.Model):\n    name = models.CharField(max_length=100)\n    project = models.ForeignKey(Project, on_delete=models.CASCADE)\n    text = models.TextField()\n    created = models.DateTimeField(verbose_name=\"created\", auto_now_add=True)\n    updated = models.DateTimeField(verbose_name=\"updated\", auto_now=True)\n    author = models.ForeignKey(User, on_delete=models.CASCADE)\n    is_active = models.BooleanField(verbose_name=\"active\", default=True)\n    def __str__(self):\n        return self.name",
+        "detail": "backend.TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "TODOModelSerializer",
+        "kind": 6,
+        "importPath": "backend.TODO.serializers",
+        "description": "backend.TODO.serializers",
+        "peekOfCode": "class TODOModelSerializer(ModelSerializer):\n    project = StringRelatedField()\n    author = StringRelatedField()\n    class Meta:\n       model = TODO\n       fields = '__all__'\nclass ProjectModelSerializer(ModelSerializer):\n    users_list = StringRelatedField(many=True)\n    class Meta:\n        model = Project",
+        "detail": "backend.TODO.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectModelSerializer",
+        "kind": 6,
+        "importPath": "backend.TODO.serializers",
+        "description": "backend.TODO.serializers",
+        "peekOfCode": "class ProjectModelSerializer(ModelSerializer):\n    users_list = StringRelatedField(many=True)\n    class Meta:\n        model = Project\n        fields = '__all__'\nclass ProjectSerializerBase(ModelSerializer):\n    class Meta:\n        model = Project\n        fields = '__all__'",
+        "detail": "backend.TODO.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectSerializerBase",
+        "kind": 6,
+        "importPath": "backend.TODO.serializers",
+        "description": "backend.TODO.serializers",
+        "peekOfCode": "class ProjectSerializerBase(ModelSerializer):\n    class Meta:\n        model = Project\n        fields = '__all__'",
+        "detail": "backend.TODO.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectLimitOffset",
+        "kind": 6,
+        "importPath": "backend.TODO.views",
+        "description": "backend.TODO.views",
+        "peekOfCode": "class ProjectLimitOffset(LimitOffsetPagination):\n    default_limit = 10\nclass TODOLimitOffset(LimitOffsetPagination):\n    default_limit = 20\n# модель ToDo: доступны все варианты запросов;v\n#  при удалении не удалять ToDo, а выставлять признак, что оно закрыто;v\n#  добавить фильтрацию по проекту;v\n#  для постраничного вывода установить размер страницы 20.v\nclass TODOModelViewSet(ModelViewSet):\n    \"\"\"",
+        "detail": "backend.TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "TODOLimitOffset",
+        "kind": 6,
+        "importPath": "backend.TODO.views",
+        "description": "backend.TODO.views",
+        "peekOfCode": "class TODOLimitOffset(LimitOffsetPagination):\n    default_limit = 20\n# модель ToDo: доступны все варианты запросов;v\n#  при удалении не удалять ToDo, а выставлять признак, что оно закрыто;v\n#  добавить фильтрацию по проекту;v\n#  для постраничного вывода установить размер страницы 20.v\nclass TODOModelViewSet(ModelViewSet):\n    \"\"\"\n        Allow: all.\n        Delete change => instance.is_active = False",
+        "detail": "backend.TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "TODOModelViewSet",
+        "kind": 6,
+        "importPath": "backend.TODO.views",
+        "description": "backend.TODO.views",
+        "peekOfCode": "class TODOModelViewSet(ModelViewSet):\n    \"\"\"\n        Allow: all.\n        Delete change => instance.is_active = False\n    \"\"\"\n    # permission_classes = [permissions.IsAuthenticated]\n    queryset = TODO.objects.all()\n    serializer_class = TODOModelSerializer\n    pagination_class = TODOLimitOffset\n    filter_backends = [DjangoFilterBackend]",
+        "detail": "backend.TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectModelViewSet",
+        "kind": 6,
+        "importPath": "backend.TODO.views",
+        "description": "backend.TODO.views",
+        "peekOfCode": "class ProjectModelViewSet(ModelViewSet):\n    # permission_classes = [permissions.IsAuthenticated]\n    queryset = Project.objects.all()\n    serializer_class = ProjectModelSerializer\n    pagination_class = ProjectLimitOffset\n    filter_backends = [filters.SearchFilter]\n    search_fields = ['name']",
+        "detail": "backend.TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.todo.asgi",
+        "description": "backend.todo.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "backend.todo.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectType",
+        "kind": 6,
+        "importPath": "backend.todo.schema",
+        "description": "backend.todo.schema",
+        "peekOfCode": "class ProjectType(DjangoObjectType):\n    class Meta:\n        model = Project\n        fields = '__all__'\nclass TODOType(DjangoObjectType):\n    class Meta:\n        model = TODO\n        fields = '__all__'\nclass UserType(DjangoObjectType):\n    class Meta:",
+        "detail": "backend.todo.schema",
+        "documentation": {}
+    },
+    {
+        "label": "TODOType",
+        "kind": 6,
+        "importPath": "backend.todo.schema",
+        "description": "backend.todo.schema",
+        "peekOfCode": "class TODOType(DjangoObjectType):\n    class Meta:\n        model = TODO\n        fields = '__all__'\nclass UserType(DjangoObjectType):\n    class Meta:\n        model = User\n        fields = '__all__'\nclass Query(graphene.ObjectType):\n    #     queryset => all_Projects, all_TODO, all_Users",
+        "detail": "backend.todo.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserType",
+        "kind": 6,
+        "importPath": "backend.todo.schema",
+        "description": "backend.todo.schema",
+        "peekOfCode": "class UserType(DjangoObjectType):\n    class Meta:\n        model = User\n        fields = '__all__'\nclass Query(graphene.ObjectType):\n    #     queryset => all_Projects, all_TODO, all_Users\n    all_Projects = graphene.List(ProjectType)\n    def resolve_all_Projects(root, info):\n        return Project.objects.all()\n    all_TODOs = graphene.List(TODOType)",
+        "detail": "backend.todo.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "kind": 6,
+        "importPath": "backend.todo.schema",
+        "description": "backend.todo.schema",
+        "peekOfCode": "class Query(graphene.ObjectType):\n    #     queryset => all_Projects, all_TODO, all_Users\n    all_Projects = graphene.List(ProjectType)\n    def resolve_all_Projects(root, info):\n        return Project.objects.all()\n    all_TODOs = graphene.List(TODOType)\n    def resolve_all_TODOs(root, info):\n        return TODO.objects.all()\n    all_Users = graphene.List(UserType)\n    def resolve_all_Users(root, info):",
+        "detail": "backend.todo.schema",
+        "documentation": {}
+    },
+    {
+        "label": "TODOMutation",
+        "kind": 6,
+        "importPath": "backend.todo.schema",
+        "description": "backend.todo.schema",
+        "peekOfCode": "class TODOMutation(graphene.Mutation):\n  class Arguments:\n    text = graphene.String(required=True)\n    id = graphene.ID()\n  todo = graphene.Field(TODOType)\n  @classmethod\n  def mutate(cls, root, info, text, id):\n    todo = TODO.objects.get(pk=id)\n    todo.text = text\n    todo.save()",
+        "detail": "backend.todo.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Mutation",
+        "kind": 6,
+        "importPath": "backend.todo.schema",
+        "description": "backend.todo.schema",
+        "peekOfCode": "class Mutation(graphene.ObjectType):\n  update_text = TODOMutation.Field()\nschema = graphene.Schema(query=Query, mutation=Mutation)",
+        "detail": "backend.todo.schema",
+        "documentation": {}
+    },
+    {
+        "label": "schema",
+        "kind": 5,
+        "importPath": "backend.todo.schema",
+        "description": "backend.todo.schema",
+        "peekOfCode": "schema = graphene.Schema(query=Query, mutation=Mutation)",
+        "detail": "backend.todo.schema",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-#n&ff#_*%$vkb+81doqde2h3@6qtvg@daqio%%^(#xf!6+dl1z'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-#n&ff#_*%$vkb+81doqde2h3@6qtvg@daqio%%^(#xf!6+dl1z'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',\n    'http://127.0.0.1:3000',\n    'http://127.0.0.1:8000',\n    'http://127.0.0.1:8080',\n    'http://127.0.0.1:80',",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',\n    'http://127.0.0.1:3000',\n    'http://127.0.0.1:8000',\n    'http://127.0.0.1:8080',\n    'http://127.0.0.1:80',\n]\n# Application definition",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',\n    'http://127.0.0.1:3000',\n    'http://127.0.0.1:8000',\n    'http://127.0.0.1:8080',\n    'http://127.0.0.1:80',\n]\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',\n    'http://127.0.0.1:3000',\n    'http://127.0.0.1:8000',\n    'http://127.0.0.1:8080',\n    'http://127.0.0.1:80',\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'drf_yasg',\n    'graphene_django',\n    'rest_framework',",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "ROOT_URLCONF = 'todo.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR/'frontend/build'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR/'frontend/build'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'todo.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.2/ref/settings/#databases\n# default SQlite3_DB\n# \n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'db',\n        'PASSWORD': 'alex',\n        'USER': 'alex',\n        'HOST': 'db',\n        'PORT': '5432',\n    }\n}",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    # {\n    #     'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    # },\n    # {\n    #     'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    # },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\n# TIME_ZONE = 'UTC'\nTIME_ZONE = 'Europe/Moscow'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (BASE_DIR / 'frontend/build/static/',)",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "TIME_ZONE = 'Europe/Moscow'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (BASE_DIR / 'frontend/build/static/',)\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (BASE_DIR / 'frontend/build/static/',)\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (BASE_DIR / 'frontend/build/static/',)\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'users.User'",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "USE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (BASE_DIR / 'frontend/build/static/',)\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'users.User'\nREST_FRAMEWORK = {",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = (BASE_DIR / 'frontend/build/static/',)\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'users.User'\nREST_FRAMEWORK = {\n    'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.NamespaceVersioning',\n    'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'],\n    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "STATICFILES_DIRS = (BASE_DIR / 'frontend/build/static/',)\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'users.User'\nREST_FRAMEWORK = {\n    'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.NamespaceVersioning',\n    'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'],\n    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],\n    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'users.User'\nREST_FRAMEWORK = {\n    'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.NamespaceVersioning',\n    'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'],\n    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],\n    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',\n    'PAGE_SIZE': 100,\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework.authentication.BasicAuthentication',",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'users.User'\nREST_FRAMEWORK = {\n    'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.NamespaceVersioning',\n    'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'],\n    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],\n    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',\n    'PAGE_SIZE': 100,\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework.authentication.BasicAuthentication',\n        'rest_framework.authentication.SessionAuthentication',",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.NamespaceVersioning',\n    'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'],\n    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],\n    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',\n    'PAGE_SIZE': 100,\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework.authentication.BasicAuthentication',\n        'rest_framework.authentication.SessionAuthentication',\n        'rest_framework.authentication.TokenAuthentication',",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "GRAPHENE",
+        "kind": 5,
+        "importPath": "backend.todo.settings",
+        "description": "backend.todo.settings",
+        "peekOfCode": "GRAPHENE = {\n    \"SCHEMA\": \"todo.schema.schema\"\n    }",
+        "detail": "backend.todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.todo.urls",
+        "description": "backend.todo.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('users', UserCustomViewSet, basename='users')\nrouter.register('control_users', UserModelViewSet, basename='control_users')\n# router.register('control_users_v2', User_V2_ModelViewSet, basename='control_users_v2')\nrouter.register('todos', TODOModelViewSet)\nrouter.register('projects', ProjectModelViewSet)\nschema_view = get_schema_view(\n    openapi.Info(\n        title=\"todo\",\n        default_version='v1',",
+        "detail": "backend.todo.urls",
+        "documentation": {}
+    },
+    {
+        "label": "schema_view",
+        "kind": 5,
+        "importPath": "backend.todo.urls",
+        "description": "backend.todo.urls",
+        "peekOfCode": "schema_view = get_schema_view(\n    openapi.Info(\n        title=\"todo\",\n        default_version='v1',\n        description=\"Documentation to out project\",\n        contact=openapi.Contact(email=\"admin@admin.local\"),\n        license=openapi.License(name=\"MIT License\"),\n    ),\n    public=True,\n    permission_classes=[permissions.AllowAny],",
+        "detail": "backend.todo.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.todo.urls",
+        "description": "backend.todo.urls",
+        "peekOfCode": "urlpatterns = [\n    # path('',TemplateView.as_view(template_name='index.html')),\n    path('admin/', admin.site.urls),\n    path('api/users/v2/',include('users.urls',namespace='v2')),\n    path('api/users/v1/',include('users.urls',namespace='v1')),\n    path('api-auth/', include('rest_framework.urls')),\n    path('api/', include(router.urls)),\n    path('api-token-auth/', views.obtain_auth_token),\n    re_path(r'^swagger(?P<format>\\.json|\\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),\n    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0),",
+        "detail": "backend.todo.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.todo.wsgi",
+        "description": "backend.todo.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "backend.todo.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "kind": 6,
+        "importPath": "backend.users.management.commands.create_user",
+        "description": "backend.users.management.commands.create_user",
+        "peekOfCode": "class Command(BaseCommand):\n    def handle(self, *args, **options):",
+        "detail": "backend.users.management.commands.create_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.users.migrations.0001_initial",
+        "description": "backend.users.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "backend.users.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserAdmin",
+        "kind": 6,
+        "importPath": "backend.users.admin",
+        "description": "backend.users.admin",
+        "peekOfCode": "class CustomUserAdmin(UserAdmin):\n    add_fieldsets = (\n        (\n            None,\n            {\"classes\": (\"wide\",), \"fields\": (\"username\", \"password1\", \"password2\", \"email\")},\n        ),\n    )\nadmin.site.register(User, CustomUserAdmin)",
+        "detail": "backend.users.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UsersConfig",
+        "kind": 6,
+        "importPath": "backend.users.apps",
+        "description": "backend.users.apps",
+        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users'",
+        "detail": "backend.users.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "backend.users.models",
+        "description": "backend.users.models",
+        "peekOfCode": "class User(AbstractUser):\n    email = models.EmailField(unique=True)",
+        "detail": "backend.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserModelSerializer",
+        "kind": 6,
+        "importPath": "backend.users.serializers",
+        "description": "backend.users.serializers",
+        "peekOfCode": "class UserModelSerializer(ModelSerializer):\n   class Meta:\n       model = User\n       fields = ['username', 'first_name', 'last_name', 'email']\nclass User_V2_ModelSerializer(ModelSerializer):\n   class Meta:\n       model = User\n       fields = ['username', 'first_name', 'last_name', 'email', 'is_superuser', 'is_staff']",
+        "detail": "backend.users.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "User_V2_ModelSerializer",
+        "kind": 6,
+        "importPath": "backend.users.serializers",
+        "description": "backend.users.serializers",
+        "peekOfCode": "class User_V2_ModelSerializer(ModelSerializer):\n   class Meta:\n       model = User\n       fields = ['username', 'first_name', 'last_name', 'email', 'is_superuser', 'is_staff']",
+        "detail": "backend.users.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TestUserCustomViewSet",
+        "kind": 6,
+        "importPath": "backend.users.tests",
+        "description": "backend.users.tests",
+        "peekOfCode": "class TestUserCustomViewSet(TestCase):\n    def setUp(self) -> None:\n        self.name = 'admin2'\n        self.password = 'admin2_123456789'\n        self.email = 'admin2_123456789@mail.ru'\n        self.data = {'first_name':'Александр','last_name':'Пушкин'}\n        self.data_put = {'first_name':'Василий','last_name':'Иванов'}\n        self.url = '/api/users/'\n        self.admin = User.objects.create_superuser(username=self.name,password=self.password,email=self.email)\n    def test_get_list(self):",
+        "detail": "backend.users.tests",
+        "documentation": {}
+    },
+    {
+        "label": "TestProjectSerializerBase",
+        "kind": 6,
+        "importPath": "backend.users.tests",
+        "description": "backend.users.tests",
+        "peekOfCode": "class TestProjectSerializerBase(APITestCase):\n    def setUp(self) -> None:\n        self.name = 'admin2'\n        self.password = 'admin2_123456789'\n        self.email = 'admin2_123456789@mail.ru'\n        self.data = {'first_name':'Александр','last_name':'Пушкин'}\n        self.data_put = {'first_name':'Василий','last_name':'Иванов'}\n        self.url = '/api/users/'\n        self.admin = User.objects.create_superuser(username=self.name,password=self.password,email=self.email)\n    def test_get_list(self):",
+        "detail": "backend.users.tests",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "backend.users.urls",
+        "description": "backend.users.urls",
+        "peekOfCode": "app_name = 'users'\nurlpatterns = [\n    path('', UserModelViewSet.as_view({'get': 'list'})),\n]",
+        "detail": "backend.users.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.users.urls",
+        "description": "backend.users.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', UserModelViewSet.as_view({'get': 'list'})),\n]",
+        "detail": "backend.users.urls",
+        "documentation": {}
+    },
+    {
+        "label": "UserModelViewSet",
+        "kind": 6,
+        "importPath": "backend.users.views",
+        "description": "backend.users.views",
+        "peekOfCode": "class UserModelViewSet(ModelViewSet):\n    queryset = User.objects.all()\n    serializer_class = UserModelSerializer\n    def get_serializer_class(self):\n        if self.request.version == 'v2':\n            return User_V2_ModelSerializer\n        return UserModelSerializer\n# class User_V2_ModelViewSet(ModelViewSet):\n#     queryset = User.objects.all()\n#     serializer_class = User_V2_ModelSerializer",
+        "detail": "backend.users.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserCustomViewSet",
+        "kind": 6,
+        "importPath": "backend.users.views",
+        "description": "backend.users.views",
+        "peekOfCode": "class UserCustomViewSet(mixins.UpdateModelMixin, mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):\n    \"\"\"\n        Allow: GET, PUT, PATCH, HEAD, OPTIONS\n    \"\"\"\n    queryset = User.objects.all()\n    serializer_class = UserModelSerializer",
+        "detail": "backend.users.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.manage",
+        "description": "backend.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todo.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "backend.manage",
+        "documentation": {}
+    }
+]
